@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+
+ 
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.color{
+  background-color: #1A1B21;
+}
+
+/*  photo image property */
+
+.photo-img{
+width: 200px;
+border-radius: 100px;
+}
+
+/* header remain section */
+
+.Second-container{
+  text-align: center;
+}
+
+.Second-container h1{
+  color:#FFFFFF;
+  font-size:50px;
+  font-weight: bolder;
+}
+
+.Second-container h2{
+  color: #F3BF99;
+
+}
+
+.Second-container h3{
+  color: #F5F5F5;
+}
+
+.email-button{
+  background-color: #D1D5DB;
+  color: #374151;
+  padding: 20px 60px 20px 60px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bolder;
+
+  
+}
+
+.linkedin-button{
+  background-color: #5093E2;
+  color: white;
+  padding: 20px 55px 20px 60px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 16px;
+
+}
+
+/* content section starts here */
+
+.content-main{
+  display: inline;
+  text-align: center;
+  background-color: #1A1B21;
+
+}
+
+.content-main h1{
+  color:#F5F5F5;
+ 
+ 
+}
+
+.content-main p{
+  color:#DCDCDC;
+  padding-bottom: 20px;
+ 
+ 
+}
+
+
+/* footer section starts here */
+
+.footer-main{
+  display: flex;
+  background-color: #161619;
+  height: 50px;
+  justify-content: center;
+  margin-top: -20px;
+  padding-top: 20px;
+}
+
+
+.F{
+  margin-left: 35px;
+}
+
+.I{
+  margin-left: 35px;
+}
+
+.G{
+  margin-left: 35px;
+}
+
